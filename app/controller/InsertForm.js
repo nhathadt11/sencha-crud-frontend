@@ -27,7 +27,7 @@ Ext.define('SenchaDemo.controller.InsertForm', {
         var role = Ext.ComponentQuery.query('radiofield[name=role]')[0].getGroupValue();
         Ext.Ajax.request(
             {
-                url: 'http://192.168.2.104:8080/SenchaDemo/InsertServlet',
+                url: SenchaDemo.app.getConfigs().baseUrl + 'InsertServlet',
                 params: {
                     username: username,
                     password: password,

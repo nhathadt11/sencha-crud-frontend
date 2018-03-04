@@ -50,6 +50,14 @@ Ext.application({
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('SenchaDemo.view.Main'));
+
+        this._configs = {
+            baseUrl: 'http://localhost:8080/sencha-crud-backend/',
+        }
+
+        this.getConfigs = function() {
+            return Object.assign(this._configs);
+        }
     },
 
     onUpdated: function () {
