@@ -19,11 +19,15 @@ Ext.application({
 
     views: [
         'Main',
-        'InsertForm'
+        'InsertForm',
     ],
 
     controllers: [
         'InsertForm'
+    ],
+
+    models: [
+        'User'
     ],
 
     icon: {

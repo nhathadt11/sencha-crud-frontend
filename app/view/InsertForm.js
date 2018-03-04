@@ -11,7 +11,8 @@ Ext.define('SenchaDemo.view.InsertForm', {
         'Ext.TitleBar',
         'Ext.field.Password',
         'Ext.MessageBox',
-        'Ext.field.Radio'
+        'Ext.field.Radio',
+        'Ext.form.FieldSet'
     ],
     config: {
         items: [
