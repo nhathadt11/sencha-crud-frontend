@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /home/nhatha/study/projects/sencha-crud-frontend/app.js
+// @require E:\My Projects\sencha\sencha-crud-frontend\app.js

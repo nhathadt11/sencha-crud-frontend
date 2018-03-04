@@ -32,7 +32,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.device.sqlite.SQLResultSet": "touch/src/device/sqlite/Sencha.js",
   "Ext.device.sqlite.SQLResultSetRowList": "touch/src/device/sqlite/Sencha.js",
   "Ext.device.sqlite.SQLTransaction": "touch/src/device/sqlite/Sencha.js",
-  "Sencha.crud.frontend": "app"
+  "SenchaDemo": "app"
 });
 
 Ext.ClassManager.addNameAlternateMappings({
@@ -668,7 +668,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "Sencha.crud.frontend.view.Main": []
+  "SenchaDemo.controller.InsertForm": [],
+  "SenchaDemo.view.InsertForm": [],
+  "SenchaDemo.view.Main": []
 });
 
 Ext.ClassManager.addNameAliasMappings({
@@ -1397,7 +1399,11 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
-  "Sencha.crud.frontend.view.Main": [
+  "SenchaDemo.controller.InsertForm": [],
+  "SenchaDemo.view.InsertForm": [
+    "widget.insertform"
+  ],
+  "SenchaDemo.view.Main": [
     "widget.main"
   ]
 });
