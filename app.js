@@ -27,7 +27,7 @@ Ext.application({
     ],
 
     models: [
-        'User'
+        'Book'
     ],
 
     icon: {
@@ -56,7 +56,7 @@ Ext.application({
         Ext.Viewport.add(Ext.create('SenchaDemo.view.Main'));
 
         this._configs = {
-            baseUrl: 'http://localhost:8080/sencha-crud-backend/',
+            baseUrl: 'http://localhost:8080/',
         }
 
         this.getConfigs = function() {

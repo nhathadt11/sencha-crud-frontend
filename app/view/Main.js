@@ -11,9 +11,9 @@ Ext.define('SenchaDemo.view.Main', {
             {
                 title: 'Insert',
                 iconCls: 'add',
-                xtype: 'insertform'
+                xtype: 'insertform',
                 // styleHtmlContent: true,
-                // scrollable: true,
+                scrollable: true,
             }
 
         ]
