@@ -40,7 +40,7 @@ Ext.define('SenchaDemo.controller.InsertForm', {
         var description = Ext.getCmp('description').getValue();
         Ext.Ajax.request(
             {
-                url: SenchaDemo.app.getConfigs().baseUrl + 'InsertServlet',
+                url: SenchaDemo.app.getConfigs().baseUrl + '/InsertServlet',
                 params: {
                     title: title,
                     author: author,

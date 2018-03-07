@@ -15,7 +15,7 @@ Ext.define('SenchaDemo.view.Main', {
                 // styleHtmlContent: true,
                 scrollable: true,
             }
-
+            
         ]
     }
 });
