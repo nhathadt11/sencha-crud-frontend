@@ -668,7 +668,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "SenchaDemo.controller.BookController": [],
   "SenchaDemo.controller.InsertForm": [],
+  "SenchaDemo.model.Book": [],
   "SenchaDemo.view.InsertForm": [],
   "SenchaDemo.view.Main": []
 });
@@ -1399,7 +1401,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "SenchaDemo.controller.BookController": [],
   "SenchaDemo.controller.InsertForm": [],
+  "SenchaDemo.model.Book": [],
   "SenchaDemo.view.InsertForm": [
     "widget.insertform"
   ],
